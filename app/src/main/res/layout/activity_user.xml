@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.UserActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/avatar"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        style="@android:style/TextAppearance"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_marginStart="20dp"
+        style="@android:style/TextAppearance"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logIn"
+        android:layout_marginStart="20dp"
+        style="@android:style/TextAppearance"/>
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/followers"
+        android:layout_marginStart="20dp"
+        style="@android:style/TextAppearance"/>
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/following"
+        style="@android:style/TextAppearance"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:id="@+id/email"
+        style="@android:style/TextAppearance"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:text="Repositories"
+        android:id="@+id/btnRepositories"/>
+
+</LinearLayout>
